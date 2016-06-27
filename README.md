@@ -30,6 +30,7 @@ var id = jsYoutubeId( 'https://www.a.com' );
 ## API
 
 ```
+var jsYoutubeId = require( 'js-youtube-id' );
 jsYoutubeId( youtubeUrl );
 
 ```
