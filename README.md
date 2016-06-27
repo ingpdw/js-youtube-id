@@ -1,4 +1,4 @@
-# js-string-byte
+# js-youtube-id
 
 Get youtube vodeo id from URL
 
