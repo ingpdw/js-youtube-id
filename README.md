@@ -14,16 +14,16 @@ $npm install js-youtube-id
 var jsYoutubeId = require( 'js-youtube-id' );
 
 var id = jsYoutubeId( 'https://www.youtube.com/watch?v=FqnKB22pOC0' );
-//FqnKB22pOC0
+//"FqnKB22pOC0"
 
 var id = jsYoutubeId( 'https://youtu.be/FqnKB22pOC0' );
-//FqnKB22pOC0
+//"FqnKB22pOC0"
 
 var id = jsYoutubeId( 'https://www.youtube.com/embed/FqnKB22pOC0' );
-//FqnKB22pOC0
+//"FqnKB22pOC0"
 
 var id = jsYoutubeId( 'https://www.a.com' );
-//undefined
+//"" (empty string)
 
 ```
 
